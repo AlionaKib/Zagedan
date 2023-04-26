@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 371.52m (surface 0.00m, duplicated 0.00m)\nvertical range: 238.12m (from R1@2015_second_pit.Elsa_2015 at 100.56m to b16@2015_Pod_mishki.Elsa_2015 at -137.57m)\nnorth-south range: 33.67m (from 28@2015_Echo.Elsa_2015 at 10.19m to 48@2015_Echo.Elsa_2015 at -23.48m)\neast-west range: 63.76m (from R2@2015_Echo.Elsa_2015 at 5.61m to b16@2015_Pod_mishki.Elsa_2015 at -58.15m)\nnumber of shots: 105\nnumber of stations: 108"
+xth_cp_data_tree_insert 19 1 1 Elsa_2015 Elsa_2015 "Непокорная Эльза 2014-2015" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_ 2014-2015" "length: 371.52m (surface 0.00m, duplicated 0.00m)\nvertical range: 238.12m (from R1@2015_second_pit.Elsa_2015 at 100.56m to b16@2015_Pod_mishki.Elsa_2015 at -137.57m)\nnorth-south range: 33.67m (from 28@2015_Echo.Elsa_2015 at 10.19m to 48@2015_Echo.Elsa_2015 at -23.48m)\neast-west range: 63.76m (from R2@2015_Echo.Elsa_2015 at 5.61m to b16@2015_Pod_mishki.Elsa_2015 at -58.15m)\nnumber of shots: 105\nnumber of stations: 108"
+xth_cp_data_tree_insert 21 19 2 2015_Echo 2015_Echo.Elsa_2015 "Непокорная Эльза 2015. Эхо" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_ 2015. \_\_\_" "length: 193.40m (surface 0.00m, duplicated 0.00m)\nvertical range: 117.77m (from 30@2015_Echo.Elsa_2015 at 5.41m to 50@2015_Echo.Elsa_2015 at -112.37m)\nnorth-south range: 33.67m (from 28@2015_Echo.Elsa_2015 at 10.19m to 48@2015_Echo.Elsa_2015 at -23.48m)\neast-west range: 50.36m (from R2@2015_Echo.Elsa_2015 at 5.61m to 40@2015_Echo.Elsa_2015 at -44.75m)\nnumber of shots: 26\nnumber of stations: 27"
+xth_cp_data_tree_insert 25 19 2 2015_Pod_mishki 2015_Pod_mishki.Elsa_2015 "Непокорная Эльза 2015. Под Мишки" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_ 2015. \_\_\_ \_\_\_\_\_" "length: 59.82m (surface 0.00m, duplicated 0.00m)\nvertical range: 28.37m (from b2@2015_Pod_mishki.Elsa_2015 at -109.19m to b16@2015_Pod_mishki.Elsa_2015 at -137.57m)\nnorth-south range: 4.37m (from b5@2015_Pod_mishki.Elsa_2015 at -18.19m to b10@2015_Pod_mishki.Elsa_2015 at -22.55m)\neast-west range: 18.42m (from R4@2015_Pod_mishki.Elsa_2015 at -39.73m to b16@2015_Pod_mishki.Elsa_2015 at -58.15m)\nnumber of shots: 70\nnumber of stations: 71"
+xth_cp_data_tree_insert 29 19 2 2015_second_pit 2015_second_pit.Elsa_2015 "Непокорная Эльза" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_" "length: 118.30m (surface 0.00m, duplicated 0.00m)\nvertical range: 102.38m (from R1@2015_second_pit.Elsa_2015 at 100.56m to R2@2015_second_pit.Elsa_2015 at -1.82m)\nnorth-south range: 12.18m (from R2@2015_second_pit.Elsa_2015 at -0.10m to 23@2015_second_pit.Elsa_2015 at -12.28m)\neast-west range: 9.88m (from R2@2015_second_pit.Elsa_2015 at 5.61m to 26@2015_second_pit.Elsa_2015 at -4.27m)\nnumber of shots: 9\nnumber of stations: 10"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 372 0
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1680678660
+

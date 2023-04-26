@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 125.45m (surface 0.00m, duplicated 0.00m)\nvertical range: 91.79m (from 0@Elsa_2014 at 0.00m to 18@Elsa_2014 at -91.79m)\nnorth-south range: 27.68m (from R1@Elsa_2014 at 15.86m to 9@Elsa_2014 at -11.82m)\neast-west range: 19.85m (from 5@Elsa_2014 at 6.16m to R1@Elsa_2014 at -13.69m)\nnumber of shots: 19\nnumber of stations: 20"
+xth_cp_data_tree_insert 20 1 1 Elsa_2014 Elsa_2014 "Непокорная Эльза" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_" "length: 125.45m (surface 0.00m, duplicated 0.00m)\nvertical range: 91.79m (from 0@Elsa_2014 at 0.00m to 18@Elsa_2014 at -91.79m)\nnorth-south range: 27.68m (from R1@Elsa_2014 at 15.86m to 9@Elsa_2014 at -11.82m)\neast-west range: 19.85m (from 5@Elsa_2014 at 6.16m to R1@Elsa_2014 at -13.69m)\nnumber of shots: 19\nnumber of stations: 20"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 103X1 p1 1 mp0-R1 mp0-R1@Elsa_2014 "Непокорная Эльза. План" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_"
+xth_cp_map_tree_insert map 1 174X1 p2 1 ms0-R1 ms0-R1@Elsa_2014 "Непокорная Эльза. Разрез-развертка" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_\_\_-\_\_\_\_\_\_\_\_\_"
+xth_cp_map_tree_create
+xth_cp_comp_stat 125 3
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1679485989
+

@@ -1,0 +1,70 @@
+encoding  utf-8
+survey Elsa_2014-2022 -title "Непокорная Эльза 2014-2015"
+
+  input 2014/elsa_2014_first_pit.th
+  input 2015/elsa_2015.th
+  input 2017/elsa_2017.th
+  input 2018/elsa_2018.th
+  input 2022/Khao/elsa_2022_khao.th
+  input 2022/PerlRiever/elsa_2022_perl_riever.th
+  input 2022/Pritoptat/elsa_2022_pritoptat.th
+  
+  #Тест комментарий
+   centerline
+    date 2014.07.17 
+    # declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+	#Горло Барлога - аппроксимация
+    extend right
+    gR1 gR2 166.215 264.4 -64.2
+    gR2 gR3 530.459 350.3 -53.1
+    gR3 gR4 170.737 55.1 -18
+	extend left
+    gR4 gR5 194.207 121.7 -3.1
+    gR5 gR6 126.246 191.8 21.1
+    gR5 gR7 301.181 103.7 -2.6
+	extend right
+    gR4 gR8 181.834 356.5 -22.6
+    gR8 gR11 274.078 77.5 -25.5
+    gR4 gR10 424.305 352 -33.9
+    gR8 gR9 100.909 277.1 1
+
+	cs UTM37
+	fix gR1 5591048.406978999 3557233.82626119 2850
+  endcenterline
+  
+  equate R1@Elsa_2014 R1@2015_second_pit.Elsa_2015
+  equate R1@Elsa_2014 R1@2017_kusiko.Elsa_2017
+  equate R2@2015_second_pit.Elsa_2015 R2@2018_khao.Elsa_2018
+  equate d91@2018_khao.Elsa_2018 d91@2022_khao
+  equate d112@2018_pritoptat.Elsa_2018 d112@2022_pritoptat
+  equate R3a@2017_new_mir.Elsa_2017 R3a@2022_perl_riever
+   
+  join line1@Elsa_2014:end line1@2015_second_pit.Elsa_2015:0
+  join line2@Elsa_2014:end line2@2015_second_pit.Elsa_2015:0
+  
+  map mp0-b16 -proj plan -title "Непокорная Эльза. План"
+  mp0-R1@Elsa_2014
+  break
+  mpR1-b16@Elsa_2015
+  break
+  mpR1-56A@Elsa_2017
+  endmap
+  
+  map ms0-b16 -proj extended -title "Непокорная Эльза. План"
+  ms0-R1@Elsa_2014
+  break
+  msR1-b16@Elsa_2015
+  break
+  msR1-56A@Elsa_2017
+  endmap
+  
+  #surface 
+	#cs UTM37
+	#input zagedan2.asc
+  #endsurface
+
+endsurvey
+

@@ -1,0 +1,26 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 852.79m (surface 0.00m, duplicated 0.00m)\nvertical range: 238.57m (from R2A@2018_ring.Elsa_2018 at 0.00m to d112@2018_pritoptat.Elsa_2018 at -238.57m)\nnorth-south range: 58.82m (from d83@2018_khao.Elsa_2018 at 58.60m to a7@2018_ring.Elsa_2018 at -0.22m)\neast-west range: 169.02m (from d91@2018_khao.Elsa_2018 at 169.02m to R2A@2018_ring.Elsa_2018 at 0.00m)\nnumber of shots: 683\nnumber of stations: 687"
+xth_cp_data_tree_insert 18 1 1 Elsa_2018 Elsa_2018 "Непокорная Эльза 2017" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_ 2017" "length: 852.79m (surface 0.00m, duplicated 0.00m)\nvertical range: 238.57m (from R2A@2018_ring.Elsa_2018 at 0.00m to d112@2018_pritoptat.Elsa_2018 at -238.57m)\nnorth-south range: 58.82m (from d83@2018_khao.Elsa_2018 at 58.60m to a7@2018_ring.Elsa_2018 at -0.22m)\neast-west range: 169.02m (from d91@2018_khao.Elsa_2018 at 169.02m to R2A@2018_ring.Elsa_2018 at 0.00m)\nnumber of shots: 683\nnumber of stations: 687"
+xth_cp_data_tree_insert 20 18 2 2018_ring 2018_ring.Elsa_2018 "Непокорная Эльза" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_" "length: 127.45m (surface 0.00m, duplicated 0.00m)\nvertical range: 45.52m (from R2A@2018_ring.Elsa_2018 at 0.00m to d7@2018_ring.Elsa_2018 at -45.52m)\nnorth-south range: 19.07m (from a11@2018_ring.Elsa_2018 at 18.85m to a7@2018_ring.Elsa_2018 at -0.22m)\neast-west range: 80.31m (from a16@2018_ring.Elsa_2018 at 80.31m to R2A@2018_ring.Elsa_2018 at 0.00m)\nnumber of shots: 83\nnumber of stations: 84"
+xth_cp_data_tree_insert 76 18 2 2018_khao 2018_khao.Elsa_2018 "Непокорная Эльза" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_" "length: 389.08m (surface 0.00m, duplicated 0.00m)\nvertical range: 148.25m (from d8@2018_khao.Elsa_2018 at -40.52m to d91@2018_khao.Elsa_2018 at -188.76m)\nnorth-south range: 53.52m (from d83@2018_khao.Elsa_2018 at 58.60m to d16@2018_khao.Elsa_2018 at 5.08m)\neast-west range: 132.01m (from d91@2018_khao.Elsa_2018 at 169.02m to d15@2018_khao.Elsa_2018 at 37.01m)\nnumber of shots: 405\nnumber of stations: 406"
+xth_cp_data_tree_insert 388 18 2 2018_petr_pit 2018_petr_pit.Elsa_2018 "Непокорная Эльза" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_" "length: 119.15m (surface 0.00m, duplicated 0.00m)\nvertical range: 92.21m (from d12@2018_petr_pit.Elsa_2018 at -52.12m to d74@2018_petr_pit.Elsa_2018 at -144.34m)\nnorth-south range: 26.82m (from R2@2018_petr_pit.Elsa_2018 at 38.10m to d72@2018_petr_pit.Elsa_2018 at 11.28m)\neast-west range: 18.01m (from d1@2018_petr_pit.Elsa_2018 at 49.00m to d72@2018_petr_pit.Elsa_2018 at 30.99m)\nnumber of shots: 99\nnumber of stations: 100"
+xth_cp_data_tree_insert 461 18 2 2018_pritoptat 2018_pritoptat.Elsa_2018 "Непокорная Эльза" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_" "length: 217.11m (surface 0.00m, duplicated 0.00m)\nvertical range: 180.56m (from d92@2018_pritoptat.Elsa_2018 at -58.02m to d112@2018_pritoptat.Elsa_2018 at -238.57m)\nnorth-south range: 21.14m (from R2@2018_pritoptat.Elsa_2018 at 38.10m to d111@2018_pritoptat.Elsa_2018 at 16.96m)\neast-west range: 27.17m (from d111@2018_pritoptat.Elsa_2018 at 72.08m to R2@2018_pritoptat.Elsa_2018 at 44.91m)\nnumber of shots: 96\nnumber of stations: 97"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 0 563X1 p1 1 mpR2A-d7 mpR2A-d7@Elsa_2018 "Непокорная Эльза. План" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_"
+xth_cp_map_tree_insert map 1 49X1 563X1 2 mpR2A-d7 mpR2A-d7@2018_ring.Elsa_2018 "Непокорная Эльза. План" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_"
+xth_cp_map_tree_insert map 1 244X1 563X1 2 mpR2-d91 mpR2-d91@2018_khao.Elsa_2018 "Непокорная Эльза. План" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_"
+xth_cp_map_tree_insert map 1 421X1 563X1 2 mpR2-d74 mpR2-d74@2018_petr_pit.Elsa_2018 "Непокорная Эльза. План" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_"
+xth_cp_map_tree_insert map 1 508X1 563X1 2 mpR2-d112 mpR2-d112@2018_pritoptat.Elsa_2018 "Непокорная Эльза. План" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_"
+xth_cp_map_tree_insert map 0 564X1 p2 1 msR2A-d7 msR2A-d7@Elsa_2018 "Непокорная Эльза. Разрез-развертка" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_\_\_-\_\_\_\_\_\_\_\_\_"
+xth_cp_map_tree_insert map 1 74X1 564X1 2 msR2A-d7 msR2A-d7@2018_ring.Elsa_2018 "Непокорная Эльза. Разрез-развертка" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_\_\_-\_\_\_\_\_\_\_\_\_"
+xth_cp_map_tree_insert map 1 386X1 564X1 2 msR2-d91 msR2-d91@2018_khao.Elsa_2018 "Непокорная Эльза. Разрез-развертка" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_\_\_-\_\_\_\_\_\_\_\_\_"
+xth_cp_map_tree_insert map 1 459X1 564X1 2 msR2-d74 msR2-d74@2018_petr_pit.Elsa_2018 "Непокорная Эльза. Разрез-развертка" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_\_\_-\_\_\_\_\_\_\_\_\_"
+xth_cp_map_tree_insert map 1 557X1 564X1 2 msR2-d112 msR2-d112@2018_pritoptat.Elsa_2018 "Непокорная Эльза. Разрез-развертка" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_\_\_-\_\_\_\_\_\_\_\_\_"
+xth_cp_map_tree_create
+xth_cp_comp_stat 853 13
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1682512853
+

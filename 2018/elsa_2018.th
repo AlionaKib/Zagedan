@@ -1,0 +1,41 @@
+encoding  utf-8
+survey Elsa_2018 -title "Непокорная Эльза 2017"
+
+  input 100Ring/elsa_2018_ring.th
+  input Khao/elsa_2018_khao.th
+  input PetrPit/elsa_2018_petr_pit.th
+  input Pritoptat/elsa_2018_pritoptat.th
+  
+  equate d7@2018_khao d7@2018_ring
+  equate R2@2018_khao R2@2018_petr_pit
+  equate R2@2018_khao R2@2018_pritoptat
+  
+  join line1p@2018_ring:end line1p@2018_khao:end
+  join line2p@2018_ring:end line2p@2018_khao:end
+  
+  join line1s@2018_ring:end line1s@2018_khao:end
+  join line2s@2018_ring:end line2s@2018_khao:end
+  
+  map mpR2A-d7 -proj plan -title "Непокорная Эльза. План"
+  mpR2A-d7@2018_ring
+  break
+  mpR2-d91@2018_khao
+  break
+  mpR2-d74@2018_petr_pit
+  break
+  mpR2-d112@2018_pritoptat
+  endmap
+  
+  map msR2A-d7 -proj extended -title "Непокорная Эльза. Разрез-развертка"
+  msR2A-d7@2018_ring
+  break
+  msR2-d91@2018_khao
+  break
+  msR2-d74@2018_petr_pit
+  break
+  msR2-d112@2018_pritoptat
+  endmap
+
+
+endsurvey
+

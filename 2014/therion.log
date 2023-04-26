@@ -1,0 +1,174 @@
+therion 5.5.5 (2020-12-22)
+  - using Proj 5.1.0, compiled against 5.1.0
+initialization file: C:\Users\Professional\AppData\Local\Therion/therion.ini
+reading ... done
+configuration file: 2014.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.21%
+
+
+############### export maps & scraps selection #################
+M -8999999999999999900000000000000000000000000000000000000000000000000000000000000000000000000000000000.00 mp0-R1@Elsa_2014 (Непокорная Эльза. План)
+S   -13.32  elsa_2014_first_pit-1p@Elsa_2014 ()
+S   -35.20  elsa_2014_first_pit-1p1@Elsa_2014 ()
+########## end of export maps & scraps selection ###############
+writing elsa_2014_first_pit-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.00 (TeX Live 2020/W32TeX) (kpathsea version 6.3.2)  22 MAR 2023 15:53
+**data.mp
+(c:/Users/Professional/AppData/Local/Therion/texmf/mpost/mpost.mp
+(c:/Users/Professional/AppData/Local/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1] [2] [3] [4] [5] [6] [7] [8] [9] (./mptextmp.mp) [10] )
+ 
+Here is how much of MetaPost's memory you used:
+ 12288 strings using 328151 characters
+ 2309996 bytes of node memory
+ 1660 symbolic tokens
+ 8i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
+24 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdftex 2020.6.19)  22 MAR 2023 15:53
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Users/Professional/AppData/Local/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Users/Professional/AppData/Local/Therion/texmf/fonts/pdfte
+x.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 59 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 256 strings out of 94623
+ 2652 string characters out of 1150079
+ 44588 words of memory out of 5027331
+ 1907 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Users/Professional/AppData/Local/Therion/texmf/fonts/type1/cmcss10.pf
+b><c:/Users/Professional/AppData/Local/Therion/texmf/fonts/type1/cmss10.pfb><c:
+/Users/Professional/AppData/Local/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 58169 bytes).
+PDF statistics:
+ 61 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+processing projection extended ... done
+average distortion: 0.00%
+
+
+############### export maps & scraps selection #################
+M -8999999999999999900000000000000000000000000000000000000000000000000000000000000000000000000000000000.00 ms0-R1@Elsa_2014 (Непокорная Эльза. Разрез-развертка)
+S     0.00  elsa_2014_first_pit-1s@Elsa_2014 ()
+########## end of export maps & scraps selection ###############
+writing elsa_2014_first_pit-ext.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.00 (TeX Live 2020/W32TeX) (kpathsea version 6.3.2)  22 MAR 2023 15:53
+**data.mp
+(c:/Users/Professional/AppData/Local/Therion/texmf/mpost/mpost.mp
+(c:/Users/Professional/AppData/Local/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1] [2] [3] [4] [5] (./mptextmp.mp) [6] )
+ 
+Here is how much of MetaPost's memory you used:
+ 12920 strings using 339597 characters
+ 2354400 bytes of node memory
+ 1660 symbolic tokens
+ 8i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
+20 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdftex 2020.6.19)  22 MAR 2023 15:53
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Users/Professional/AppData/Local/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Users/Professional/AppData/Local/Therion/texmf/fonts/pdfte
+x.map})
+(./th_formdef.tex) (./th_pagedef.tex
+Overfull \hbox (15.49646pt too wide) in paragraph at lines 12--12
+[]\thfa nEPOKORNAQ |LXZA\thfb . \thfa rAZREZ\thfb -\thfa RAZWERTKA |
+
+\hbox(18.05556+5.05556)x398.33818, glue set - 1.0
+.\hbox(0.0+0.0)x0.0
+.\thfa n
+.\thfa E
+.\thfa P
+.\kern-0.3611
+.etc.
+
+) (./th_pages.tex)
+ 54 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 251 strings out of 94623
+ 2598 string characters out of 1150079
+ 47018 words of memory out of 5030761
+ 1902 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,8p,338b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Users/Professional/AppData/Local/Therion/texmf/fonts/type1/cmcss10.pf
+b><c:/Users/Professional/AppData/Local/Therion/texmf/fonts/type1/cmss10.pfb><c:
+/Users/Professional/AppData/Local/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 52774 bytes).
+PDF statistics:
+ 49 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing elsa_2014_first_pit.lox .....
+C:\Users\Professional\AppData\Local\Therion\therion.exe: warning -- elsa_2014_first_pit-1p1@Elsa_2014 -- multiple scrap outer outlines not supported yet
+ done
+writing xtherion file ... done
+compilation time: 1 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.30%   93.72%  elsa_2014_first_pit-1p@Elsa_2014
+   0.16%   78.98%  elsa_2014_first_pit-1p1@Elsa_2014
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.02%  elsa_2014_first_pit-1s@Elsa_2014
+################### end of scrap distortions ###################

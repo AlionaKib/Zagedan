@@ -1,0 +1,23 @@
+encoding  utf-8
+source index.th
+
+select recursive
+
+export map -projection plan -output elsa_main-plan.pdf \
+  -layout-title "Непокорная Эльза. План"\
+  -layout-map-header 15 8 s\
+  -layout-debug station-names \
+  -layout-color map-fg altitude \
+  -layout-north true \
+  -layout-overlap 2 cm \
+  -layout-scale 1 200
+  
+ export map -projection extended -output elsa_main-ext.pdf \
+ -layout-map-header 0 110 sw\
+  -layout-debug station-names \
+  -layout-color map-fg altitude \
+  -layout water-blue
+
+export model -output elsa_main.lox
+
+#  -layout-color map-fg [98 90 77] \

@@ -1,0 +1,289 @@
+encoding  utf-8
+# 2017.09.08 created by TopoDroid v 4.1.0c
+survey 2017_kusiko -title "Непокорная Эльза"
+
+  centerline
+    date 2017.07.17 
+    # declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+	extend right
+	R1 . 1.90 200.0 0.0
+    extend right
+    R1 . 0.00 20.0 0.0
+    extend vertical
+    R1 . 26.00 0.0 90.0
+    R1 . 1.00 0.0 -90.0
+    extend left
+    1A . 2.60 204.0 0.0
+    extend right
+    1A . 4.00 24.0 0.0
+    extend vertical
+    1A . 17.00 0.0 90.0
+    1A . 1.00 0.0 -90.0
+    extend left
+    2A . 3.50 213.0 0.0
+    extend right
+    2A . 2.00 33.0 0.0
+    extend vertical
+    2A . 7.60 0.0 90.0
+    2A . 3.00 0.0 -90.0
+    extend right
+    4A . 2.30 103.0 0.0
+    extend left
+    4A . 0.00 283.0 0.0
+    extend vertical
+    4A . 15.60 0.0 90.0
+    4A . 0.10 0.0 -90.0
+    extend right
+    5A . 0.10 166.0 0.0
+    extend left
+    5A . 2.70 346.0 0.0
+    extend vertical
+    5A . 11.50 0.0 90.0
+    5A . 1.00 0.0 -90.0
+    extend right
+    5A . 0.10 166.0 0.0
+    extend left
+    5A . 2.70 346.0 0.0
+    extend vertical
+    5A . 11.50 0.0 90.0
+    5A . 1.00 0.0 -90.0
+    extend left
+    6A . 6.00 231.0 0.0
+    extend right
+    6A . 3.70 51.0 0.0
+    extend vertical
+    6A . 2.70 0.0 90.0
+    6A . 0.50 0.0 -90.0
+    extend right
+    R1A . 2.50 137.5 0.0
+    extend left
+    R1A . 0.20 317.5 0.0
+    extend vertical
+    R1A . 1.90 0.0 90.0
+    R1A . 1.60 0.0 -90.0
+    extend left
+    R1 1A 5.78 290.0 -9.0
+    1A 2A 5.80 294.0 -23.9
+    2A 3A 17.83 303.0 -27.1
+    3A 4A 38.02 280.0 -12.2
+    4A 5A 7.05 193.0 40.6
+    5A 6A 16.40 256.0 34.6
+	extend right
+	6A 11A 10.99 133.0 7.5
+    11A 12A 4.26 109.0 1.7
+	extend left
+    6A R1A 8.44 321.0 9.8
+    extend right
+    4A 8A 12.45 97.0 -20.1
+    extend left
+    4A . 2.30 190.0 0.0
+    extend right
+    4A . 0.00 10.0 0.0
+    extend vertical
+    4A . 15.60 0.0 90.0
+    4A . 0.10 0.0 -90.0
+    extend right
+    5A . 0.10 103.0 0.0
+    extend left
+    5A . 2.70 283.0 0.0
+    extend vertical
+    5A . 11.50 0.0 90.0
+    5A . 1.00 0.0 -90.0
+    extend left
+    R1 . 1.90 200.0 0.0
+    extend right
+    R1 . 0.00 20.0 0.0
+    extend vertical
+    R1 . 26.00 0.0 90.0
+    R1 . 1.00 0.0 -90.0
+    extend left
+    1A . 2.60 204.0 0.0
+    extend right
+    1A . 4.00 24.0 0.0
+    extend vertical
+    1A . 17.00 0.0 90.0
+    1A . 1.00 0.0 -90.0
+    extend left
+    2A . 3.50 213.0 0.0
+    extend right
+    2A . 2.00 33.0 0.0
+    extend vertical
+    2A . 7.60 0.0 90.0
+    2A . 3.00 0.0 -90.0
+    extend left
+    3A . 1.50 190.0 0.0
+    extend right
+    3A . 3.00 10.0 0.0
+    extend vertical
+    3A . 12.00 0.0 90.0
+    3A . 1.70 0.0 -90.0
+    extend right
+    4A . 2.30 103.0 0.0
+    extend left
+    4A . 0.00 283.0 0.0
+    extend vertical
+    4A . 15.60 0.0 90.0
+    4A . 0.10 0.0 -90.0
+    extend right
+    5A . 0.10 166.0 0.0
+    extend left
+    5A . 2.70 346.0 0.0
+    extend vertical
+    5A . 11.50 0.0 90.0
+    5A . 1.00 0.0 -90.0
+    extend left
+    6A . 6.00 231.0 0.0
+    extend right
+    6A . 3.70 51.0 0.0
+    extend vertical
+    6A . 2.70 0.0 90.0
+    6A . 0.50 0.0 -90.0
+    extend left
+    R1A 20A 10.02 227.5 -23.3
+    20A . 1.30 226.0 0.0
+    extend right
+    20A . 0.00 46.0 0.0
+    extend vertical
+    20A . 4.15 0.0 90.0
+    20A . 5.80 0.0 -90.0
+    extend left
+    20A 21A 5.11 316.0 2.5
+    21A 22A 4.83 0.0 -90.0
+	extend left
+    21A . 1.30 226.0 0.0
+    extend right
+    21A . 0.00 46.0 0.0
+    extend vertical
+    21A . 4.15 0.0 90.0
+    21A . 5.80 0.0 -90.0
+    extend right
+    33A . 2.00 74.0 0.0
+    extend left
+    33A . 2.50 254.0 0.0
+    extend vertical
+    33A . 9.80 0.0 90.0
+    33A . 5.30 0.0 -90.0
+    extend right
+    15A . 3.90 59.0 0.0
+    extend left
+    15A . 1.70 239.0 0.0
+    extend vertical
+    15A . 7.60 0.0 90.0
+    15A . 2.50 0.0 -90.0
+    extend right
+    14A . 0.85 15.0 0.0
+    extend left
+    14A . 3.24 195.0 0.0
+    extend vertical
+    14A . 7.70 0.0 90.0
+    14A . 2.80 0.0 -90.0
+    extend right
+    13A . 3.70 33.0 0.0
+    extend left
+    13A . 0.50 213.0 0.0
+    extend vertical
+    13A . 6.60 0.0 90.0
+    13A . 2.10 0.0 -90.0
+    extend right
+    R2A . 4.00 20.0 0.0
+    extend left
+    R2A . 0.50 200.0 0.0
+    extend vertical
+    R2A . 7.50 0.0 90.0
+    R2A . 0.90 0.0 -90.0
+    22A 23A 4.49 286.0 8.6
+    23A 18A 10.60 317.5 -21.0
+    extend right
+    18A . 2.00 74.0 0.0
+    extend left
+    18A . 2.50 254.0 0.0
+    extend vertical
+    18A . 9.80 0.0 90.0
+    18A . 5.30 0.0 -90.0
+    extend left
+    18A 33A 16.85 164.0 -24.1
+    33A . 3.90 59.0 0.0
+    extend left
+    33A . 1.70 239.0 0.0
+    extend vertical
+    33A . 7.60 0.0 90.0
+    33A . 2.50 0.0 -90.0
+    extend right
+    33A 15A 18.96 149.0 -18.2
+    15A . 0.85 15.0 0.0
+    extend left
+    15A . 3.24 195.0 0.0
+    extend vertical
+    15A . 7.70 0.0 90.0
+    15A . 2.80 0.0 -90.0
+    extend right
+    15A-1 14A 9.58 105.0 -11.7
+    14A . 3.70 33.0 0.0
+    extend left
+    14A . 0.50 213.0 0.0
+    extend vertical
+    14A . 6.60 0.0 90.0
+    14A . 2.10 0.0 -90.0
+    extend right
+    14A 13A 23.70 123.0 -9.8
+    13A . 4.00 20.0 0.0
+    extend left
+    13A . 0.50 200.0 0.0
+    extend vertical
+    13A . 7.50 0.0 90.0
+    13A . 0.90 0.0 -90.0
+    extend right
+    13A R2A 24.49 110.0 -26.2
+    extend left
+    R2A . 3.80 325.0 0.0
+    extend right
+    R2A . 0.70 145.0 0.0
+	extend right
+    11A . 1.80 43.0 0.0
+    extend left
+    11A . 0.00 223.0 0.0
+    extend vertical
+    11A . 3.30 0.0 90.0
+    11A . 1.00 0.0 -90.0
+    extend right
+    12A . 0.00 19.0 0.0
+    extend left
+    12A . 1.00 199.0 0.0
+    extend vertical
+    12A . 1.60 0.0 90.0
+    12A . 2.50 0.0 -90.0
+    extend vertical
+    R2A . 0.54 0.0 90.0
+    R2A . 0.70 0.0 -90.0
+  
+  endcenterline
+  
+  
+  input elsa_2017_kusiko-1p.th2
+  
+  map mpR1-R2A -title "Непокорная Эльза. План" -projection plan
+  elsa_2017_kusiko-1p
+  endmap
+  
+  input elsa_2017_kusiko-1s.th2
+ 
+  map msR1-R2A -title "Непокорная Эльза. Разрез-развертка" -projection extended
+  elsa_2017_kusiko-1s2
+  break  
+  elsa_2017_kusiko-1s
+  endmap
+  
+  input elsa_2017_kusiko-1s_pink.th2
+  
+  map pink -projection extended
+  elsa_2017_kusiko-1s1
+  endmap
+  
+  join line4s:0 line1pink:0
+  join line1s:end line2pink:0
+
+endsurvey
+

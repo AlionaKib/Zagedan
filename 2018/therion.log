@@ -1,0 +1,191 @@
+therion 5.5.5 (2020-12-22)
+  - using Proj 5.1.0, compiled against 5.1.0
+initialization file: C:\Users\Professional\AppData\Local\Therion/therion.ini
+reading ... done
+configuration file: elsa_2018.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.03%
+
+
+############### export maps & scraps selection #################
+M  -132.07 mpR2-d112@2018_pritoptat.Elsa_2018 (Непокорная Эльза. План)
+S   -98.46  elsa_2018_pritoptat-1p@2018_pritoptat.Elsa_2018 ()
+S  -165.67  elsa_2018_pritoptat-1p1@2018_pritoptat.Elsa_2018 ()
+M  -117.18 mpR2-d74@2018_petr_pit.Elsa_2018 (Непокорная Эльза. План)
+S   -99.77  elsa_2018_petr_pit-1p@2018_petr_pit.Elsa_2018 ()
+S  -134.60  elsa_2018_petr_pit-1p1@2018_petr_pit.Elsa_2018 ()
+M  -106.92 mpR2-d91@2018_khao.Elsa_2018 (Непокорная Эльза. План)
+S   -53.53  elsa_2018_khao-1p@2018_khao.Elsa_2018 ()
+S   -74.22  elsa_2018_khao-1p1@2018_khao.Elsa_2018 ()
+S  -130.48  elsa_2018_khao-1p2@2018_khao.Elsa_2018 ()
+S  -169.46  elsa_2018_khao-1p3@2018_khao.Elsa_2018 ()
+M   -20.79 mpR2A-d7@2018_ring.Elsa_2018 (Непокорная Эльза. План)
+S   -20.79  elsa_2018_ring-1p@2018_ring.Elsa_2018 ()
+########## end of export maps & scraps selection ###############
+writing elsa_2018-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.00 (TeX Live 2020/W32TeX) (kpathsea version 6.3.2)  26 APR 2023 16:40
+**data.mp
+(c:/Users/Professional/AppData/Local/Therion/texmf/mpost/mpost.mp
+(c:/Users/Professional/AppData/Local/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
+[18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
+[33] [34] [35] [36] [37] (./mptextmp.mp) [38] )
+ 
+Here is how much of MetaPost's memory you used:
+ 48507 strings using 1252718 characters
+ 2388788 bytes of node memory
+ 1660 symbolic tokens
+ 8i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
+52 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdftex 2020.6.19)  26 APR 2023 16:40
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Users/Professional/AppData/Local/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Users/Professional/AppData/Local/Therion/texmf/fonts/pdfte
+x.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 97 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 294 strings out of 94623
+ 3039 string characters out of 1150079
+ 56617 words of memory out of 5039360
+ 1945 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,8p,248b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Users/Professional/AppData/Local/Therion/texmf/fonts/type1/cmcss10.pf
+b><c:/Users/Professional/AppData/Local/Therion/texmf/fonts/type1/cmss10.pfb><c:
+/Users/Professional/AppData/Local/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 188453 bytes).
+PDF statistics:
+ 154 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 403 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+processing projection extended ... done
+average distortion: 0.07%
+C:\Users\Professional\AppData\Local\Therion\therion.exe: warning --  [0] -- source layout not found -- water-blue
+
+
+############### export maps & scraps selection #################
+M     0.00 msR2-d91@2018_khao.Elsa_2018 (Непокорная Эльза. Разрез-развертка)
+S     0.00  elsa_2018_khao-1s@2018_khao.Elsa_2018 ()
+M     0.00 msR2-d74@2018_petr_pit.Elsa_2018 (Непокорная Эльза. Разрез-развертка)
+S     0.00  elsa_2018_petr_pit-1s@2018_petr_pit.Elsa_2018 ()
+M     0.00 msR2-d112@2018_pritoptat.Elsa_2018 (Непокорная Эльза. Разрез-развертка)
+S     0.00  elsa_2018_pritoptat-1s@2018_pritoptat.Elsa_2018 ()
+M     0.00 msR2A-d7@2018_ring.Elsa_2018 (Непокорная Эльза. Разрез-развертка)
+S     0.00  elsa_2018_ring-1s@2018_ring.Elsa_2018 ()
+########## end of export maps & scraps selection ###############
+writing elsa_2018-ext.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.00 (TeX Live 2020/W32TeX) (kpathsea version 6.3.2)  26 APR 2023 16:40
+**data.mp
+(c:/Users/Professional/AppData/Local/Therion/texmf/mpost/mpost.mp
+(c:/Users/Professional/AppData/Local/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1]
+[Warning: scrap outline intersects itself in scrap elsa_2018_khao-1s@2018_khao.
+Elsa_2018] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+[17] (./mptextmp.mp) [18] )
+ 
+Here is how much of MetaPost's memory you used:
+ 48418 strings using 1324062 characters
+ 2512528 bytes of node memory
+ 1660 symbolic tokens
+ 8i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
+32 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdftex 2020.6.19)  26 APR 2023 16:40
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Users/Professional/AppData/Local/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Users/Professional/AppData/Local/Therion/texmf/fonts/pdfte
+x.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 72 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 269 strings out of 94623
+ 2769 string characters out of 1150079
+ 91424 words of memory out of 5071167
+ 1920 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,8p,248b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Users/Professional/AppData/Local/Therion/texmf/fonts/type1/cmcss10.pf
+b><c:/Users/Professional/AppData/Local/Therion/texmf/fonts/type1/cmss10.pfb><c:
+/Users/Professional/AppData/Local/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 168128 bytes).
+PDF statistics:
+ 94 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing xtherion file ... done
+compilation time: 2 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.05%   31.64%  elsa_2018_khao-1p1@2018_khao.Elsa_2018
+   0.15%   21.49%  elsa_2018_ring-1p@2018_ring.Elsa_2018
+   0.00%    0.17%  elsa_2018_khao-1p3@2018_khao.Elsa_2018
+   0.00%    0.17%  elsa_2018_khao-1p2@2018_khao.Elsa_2018
+   0.00%    0.07%  elsa_2018_pritoptat-1p@2018_pritoptat.Elsa_2018
+   0.00%    0.04%  elsa_2018_pritoptat-1p1@2018_pritoptat.Elsa_2018
+   0.00%    0.03%  elsa_2018_petr_pit-1p@2018_petr_pit.Elsa_2018
+   0.00%    0.02%  elsa_2018_khao-1p@2018_khao.Elsa_2018
+   0.00%    0.01%  elsa_2018_petr_pit-1p1@2018_petr_pit.Elsa_2018
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   0.37%   53.62%  elsa_2018_ring-1s@2018_ring.Elsa_2018
+   0.07%   19.49%  elsa_2018_khao-1s@2018_khao.Elsa_2018
+   0.00%    0.04%  elsa_2018_pritoptat-1s@2018_pritoptat.Elsa_2018
+   0.00%    0.02%  elsa_2018_petr_pit-1s@2018_petr_pit.Elsa_2018
+################### end of scrap distortions ###################

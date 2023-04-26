@@ -1,0 +1,32 @@
+encoding  utf-8
+survey Elsa_2015 -title "Непокорная Эльза 2014-2015"
+
+  input Echo/elsa_2015_Echo.th
+  input PodMishki/elsa_2015_Pod_mishki.th
+  input SecondPit/elsa_2015_second_pit.th
+  
+  equate R2@2015_second_pit R2@2015_Echo
+  equate R4@2015_Echo R4@2015_Pod_mishki
+  
+  join line1@2015_Echo:end line1@2015_Pod_mishki:0
+  join line2@2015_Echo:end line2@2015_Pod_mishki:end
+  
+  map mpR1-b16 -proj plan -title "Непокорная Эльза. План"
+  mpR1-R2@2015_second_pit
+  break
+  mpR2-R4@2015_Echo
+  break
+  mpR4-b16@2015_Pod_mishki
+  endmap
+  
+  map msR1-b16 -proj extended -title "Непокорная Эльза. Разрез-развертка"
+  msR2-R4@2015_Echo
+  break
+  msR1-R2@2015_second_pit
+  break
+  msR4-b16@2015_Pod_mishki
+  endmap
+
+
+endsurvey
+

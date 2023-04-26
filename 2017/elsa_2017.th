@@ -1,0 +1,36 @@
+encoding  utf-8
+survey Elsa_2017 -title "Непокорная Эльза 2017"
+
+  input NewMir/elsa_2017_new_mir.th
+  input KuSiKo/elsa_2017_kusiko.th
+  
+  equate R2A@2017_kusiko R2A@2017_new_mir
+  equate 8A@2017_kusiko 8A@2017_new_mir
+  
+  join line1@2017_kusiko:0 line1@2017_new_mir:0
+  join line2@2017_kusiko:end line1@2017_new_mir:end
+  join line3@2017_kusiko:end line2@2017_new_mir:end
+  join line4@2017_kusiko:end line3@2017_new_mir:0
+  
+  join line2pink@2017_kusiko:1 line1s@2017_new_mir:0
+  join line1pink@2017_kusiko:1 line2s@2017_new_mir:0
+  join line5s@2017_kusiko:end line5s@2017_new_mir:end
+  join line6s@2017_kusiko:end line6s@2017_new_mir:end
+  
+  map mpR1-56A -proj plan -title "Непокорная Эльза. План"
+  mpR2A-56A@2017_new_mir
+  break
+  mpR1-R2A@2017_kusiko
+  endmap
+  
+  map msR1-56A -proj extended -title "Непокорная Эльза. Разрез-развертка"
+  msR2A-56A@2017_new_mir
+  break
+  pink@2017_kusiko
+  break
+  msR1-R2A@2017_kusiko
+  endmap
+
+
+endsurvey
+

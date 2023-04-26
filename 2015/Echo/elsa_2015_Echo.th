@@ -1,0 +1,58 @@
+encoding  utf-8
+# 2015.08.08 created by TopoDroid v 4.1.0c
+survey 2015_Echo -title "Непокорная Эльза 2015. Эхо"
+
+  centerline
+  
+    date 2017.07.17 
+    # declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend left
+    R2 27 5.90 271.0 18.0
+    27 28 27.20 292.0 0.0
+    28 29 9.60 245.0 28.0
+    29 30 4.00 172.0 13.0
+    30 31 2.30 182.0 -15.0
+    31 32 5.10 240.0 -41.0
+    32 33 1.60 312.0 2.0
+    33 34 3.80 175.0 -40.0
+    34 35 11.20 0.0 -90.0
+    35 36 2.00 134.0 -3.0
+    36 37 4.30 231.0 -52.0
+    37 38 6.00 0.0 -90.0
+    38 39 9.60 201.0 -55.0
+    39 40 7.70 244.0 -38.0
+    40 R3 4.70 0.0 -90.0
+    extend right
+    R3 41 4.80 166.0 0.0
+    41 42 6.90 0.0 -90.0
+    42 43 9.60 112.0 -44.0
+    43 44 11.00 0.0 -90.0
+    44 45 1.50 170.0 7.0
+    45 46 11.50 0.0 -90.0
+    46 47 1.20 125.0 -2.0
+    47 48 12.40 0.0 -90.0
+    48 49 3.60 332.0 -25.0
+    49 50 23.60 0.0 -90.0
+    50 R4 2.30 268.0 12.0
+	
+  endcenterline
+  
+  input elsa_2015_Echo-1p.th2
+  
+  map mpR2-R4 -title "Непокорная Эльза. План" -projection plan
+  elsa_2015_Echo-1p
+  break
+  elsa_2015_Echo-1p1
+  endmap
+  
+  input elsa_2015_Echo-1s.th2
+  
+  map msR2-R4 -title "Непокорная Эльза. Разрез-развертка" -projection extended 
+  elsa_2015_Echo-1s
+  endmap
+
+endsurvey
+

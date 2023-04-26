@@ -1,0 +1,21 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 824.05m (surface 0.00m, duplicated 0.00m)\nvertical range: 79.24m (from R1@2017_kusiko.Elsa_2017 at 44.48m to 56A@2017_new_mir.Elsa_2017 at -34.76m)\nnorth-south range: 221.88m (from 18A@2017_kusiko.Elsa_2017 at 50.83m to 53A@2017_new_mir.Elsa_2017 at -171.05m)\neast-west range: 305.03m (from 56A@2017_new_mir.Elsa_2017 at 241.05m to 18A@2017_kusiko.Elsa_2017 at -63.99m)\nnumber of shots: 340\nnumber of stations: 343"
+xth_cp_data_tree_insert 19 1 1 Elsa_2017 Elsa_2017 "Непокорная Эльза 2017" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_ 2017" "length: 824.05m (surface 0.00m, duplicated 0.00m)\nvertical range: 79.24m (from R1@2017_kusiko.Elsa_2017 at 44.48m to 56A@2017_new_mir.Elsa_2017 at -34.76m)\nnorth-south range: 221.88m (from 18A@2017_kusiko.Elsa_2017 at 50.83m to 53A@2017_new_mir.Elsa_2017 at -171.05m)\neast-west range: 305.03m (from 56A@2017_new_mir.Elsa_2017 at 241.05m to 18A@2017_kusiko.Elsa_2017 at -63.99m)\nnumber of shots: 340\nnumber of stations: 343"
+xth_cp_data_tree_insert 21 19 2 2017_new_mir 2017_new_mir.Elsa_2017 "Непокорная Эльза" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_" "length: 568.40m (surface 0.00m, duplicated 0.00m)\nvertical range: 56.37m (from 9A@2017_new_mir.Elsa_2017 at 21.61m to 56A@2017_new_mir.Elsa_2017 at -34.76m)\nnorth-south range: 216.50m (from 8A@2017_new_mir.Elsa_2017 at 45.45m to 53A@2017_new_mir.Elsa_2017 at -171.05m)\neast-west range: 254.04m (from 56A@2017_new_mir.Elsa_2017 at 241.05m to 26A@2017_new_mir.Elsa_2017 at -12.99m)\nnumber of shots: 192\nnumber of stations: 193"
+xth_cp_data_tree_insert 285 19 2 2017_kusiko 2017_kusiko.Elsa_2017 "Непокорная Эльза" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_" "length: 255.65m (surface 0.00m, duplicated 0.00m)\nvertical range: 43.42m (from R1@2017_kusiko.Elsa_2017 at 44.48m to R2A@2017_kusiko.Elsa_2017 at 1.06m)\nnorth-south range: 53.49m (from 18A@2017_kusiko.Elsa_2017 at 50.83m to R2A@2017_kusiko.Elsa_2017 at -2.66m)\neast-west range: 100.94m (from R1@2017_kusiko.Elsa_2017 at 36.95m to 18A@2017_kusiko.Elsa_2017 at -63.99m)\nnumber of shots: 148\nnumber of stations: 150"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 0 463X1 p1 1 mpR1-56A mpR1-56A@Elsa_2017 "Непокорная Эльза. План" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_"
+xth_cp_map_tree_insert map 1 139X1 463X1 2 mpR2A-56A mpR2A-56A@2017_new_mir.Elsa_2017 "Непокорная Эльза. План" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_"
+xth_cp_map_tree_insert map 1 377X1 463X1 2 mpR1-R2A mpR1-R2A@2017_kusiko.Elsa_2017 "Непокорная Эльза. План" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_"
+xth_cp_map_tree_insert map 0 464X1 p2 1 msR1-56A msR1-56A@Elsa_2017 "Непокорная Эльза. Разрез-развертка" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_\_\_-\_\_\_\_\_\_\_\_\_"
+xth_cp_map_tree_insert map 1 283X1 464X1 2 msR2A-56A msR2A-56A@2017_new_mir.Elsa_2017 "Непокорная Эльза. Разрез-развертка" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_\_\_-\_\_\_\_\_\_\_\_\_"
+xth_cp_map_tree_insert map 1 451X1 464X1 2 pink pink@2017_kusiko.Elsa_2017 "" ""
+xth_cp_map_tree_insert map 1 433X1 464X1 2 msR1-R2A msR1-R2A@2017_kusiko.Elsa_2017 "Непокорная Эльза. Разрез-развертка" "\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_. \_\_\_\_\_\_-\_\_\_\_\_\_\_\_\_"
+xth_cp_map_tree_create
+xth_cp_comp_stat 824 7
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1680699700
+

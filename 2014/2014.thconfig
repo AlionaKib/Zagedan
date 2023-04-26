@@ -1,0 +1,31 @@
+encoding  utf-8
+source elsa_2014_first_pit.th
+
+layout water-blue
+  code metapost
+  def a_water (expr p) =
+    T:=identity;
+    thfill p withcolor (0.0, 0.5, 1.0);
+  enddef;
+endlayout
+
+select mp0-R1@Elsa_2014
+
+export map -projection plan -output elsa_2014_first_pit-plan.pdf \
+  -layout-title "Непокорная Эльза. План"\
+  -layout-map-header 15 8 s\
+  -layout-debug station-names \
+  -layout-color map-fg [98 92 82] \
+  -layout-north true \
+  -layout-overlap 2 cm \
+  -layout-scale 1 100
+  
+  select ms0-R1@Elsa_2014
+  
+ export map -projection extended -output elsa_2014_first_pit-ext.pdf \
+  -layout-map-header 0 110 sw\
+  -layout-debug station-names \
+  -layout-color map-fg [98 92 82] \
+  -layout water-blue
+
+export model -output elsa_2014_first_pit.lox

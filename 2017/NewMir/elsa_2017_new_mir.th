@@ -1,0 +1,324 @@
+encoding  utf-8
+# 2017.09.08 created by TopoDroid v 4.1.0c
+survey 2017_new_mir -title "Непокорная Эльза"
+
+  centerline
+    date 2017.07.17 
+    # declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend right
+    R2A 32A 4.75 55.0 -12.9
+    extend left
+    32A . 0.00 242.0 0.0
+    extend right
+    32A . 5.43 62.0 0.0
+    extend vertical
+    32A . 1.70 0.0 90.0
+    32A . 1.60 0.0 -90.0
+    extend left
+    32A 31A 8.85 332.0 -7.2
+    31A . 4.00 298.0 0.0
+    extend right
+    31A . 0.80 118.0 0.0
+    extend vertical
+    31A . 3.20 0.0 90.0
+    31A . 1.60 0.0 -90.0
+    extend left
+    31A 29A 6.77 28.0 -8.0
+    extend right
+    29A . 1.60 75.0 0.0
+    extend left
+    29A . 4.60 255.0 0.0
+    extend vertical
+    29A . 6.00 0.0 90.0
+    29A . 1.25 0.0 -90.0
+    extend right
+    29A 30A 6.11 165.0 13.1
+    extend left
+    29A . 1.23 249.0 0.0
+    extend right
+    29A . 2.50 69.0 0.0
+    extend vertical
+    29A . 0.90 0.0 90.0
+    29A . 0.30 0.0 -90.0
+    extend left
+    29A 28A 17.54 339.0 23.8
+    28A . 0.80 220.0 0.0
+    extend right
+    28A . 2.80 40.0 0.0
+    extend vertical
+    28A . 0.60 0.0 90.0
+    28A . 0.70 0.0 -90.0
+    extend left
+    28A 27A 6.51 310.0 36.7
+    27A . 3.50 234.0 0.0
+    extend right
+    27A . 2.34 54.0 0.0
+    extend vertical
+    27A . 0.68 0.0 90.0
+    27A . 0.29 0.0 -90.0
+    extend left
+    27A 26A 4.08 324.0 19.0
+    extend right
+    26A 25A 4.50 180.0 90.0
+    extend left
+    32A . 3.80 325.0 0.0
+    extend right
+    32A . 0.70 145.0 0.0
+    extend vertical
+    32A . 0.54 0.0 90.0
+    32A . 0.70 0.0 -90.0
+    extend left
+    31A . 0.00 242.0 0.0
+    extend right
+    31A . 5.43 62.0 0.0
+    extend vertical
+    31A . 1.70 0.0 90.0
+    31A . 1.60 0.0 -90.0
+    extend left
+    29A . 4.00 298.0 0.0
+    extend right
+    29A . 0.80 118.0 0.0
+    extend vertical
+    29A . 3.20 0.0 90.0
+    29A . 1.60 0.0 -90.0
+    extend right
+    30A . 1.60 75.0 0.0
+    extend left
+    30A . 4.60 255.0 0.0
+    extend vertical
+    30A . 6.00 0.0 90.0
+    30A . 1.25 0.0 -90.0
+    extend left
+    28A . 1.23 249.0 0.0
+    extend right
+    28A . 2.50 69.0 0.0
+    extend vertical
+    28A . 0.90 0.0 90.0
+    28A . 0.30 0.0 -90.0
+    extend left
+    27A . 0.80 220.0 0.0
+    extend right
+    27A . 2.80 40.0 0.0
+    extend vertical
+    27A . 0.60 0.0 90.0
+    27A . 0.70 0.0 -90.0
+    extend left
+    26A . 3.50 234.0 0.0
+    extend right
+    26A . 2.34 54.0 0.0
+    extend vertical
+    26A . 0.68 0.0 90.0
+    26A . 0.29 0.0 -90.0
+    extend right
+    25A . 0.00 126.0 0.0
+    extend left
+    25A . 10.00 306.0 0.0
+    extend vertical
+    25A . 11.00 0.0 90.0
+    25A . 0.80 0.0 -90.0
+    24A . 0.00 126.0 0.0
+    extend left
+    24A . 10.00 306.0 0.0
+    extend vertical
+    24A . 11.00 0.0 90.0
+    24A . 0.80 0.0 -90.0
+    extend right
+    24A 25A 3.33 216.0 -20.2
+    extend left
+    24A 8A 9.21 357.0 32.1
+    extend right
+    8A 9A 7.97 123.0 5.9
+    32A 35A 7.71 181.0 0.8
+    36A . 0.90 31.0 0.0
+    extend left
+    36A . 4.60 211.0 0.0
+    extend vertical
+    36A . 4.00 0.0 90.0
+    extend right
+    35A 36A 15.90 121.0 3.1
+    36A 37A 13.76 206.0 8.3
+    37A 38A 23.42 116.0 6.4
+    38A 39A 23.94 185.0 8.4
+    39A 40A 9.94 110.0 4.3
+    40A 41A 19.80 162.0 11.4
+    41A 42A 13.42 146.0 22.3
+    42A 43A 20.10 94.0 -29.1
+    43A 44A 10.30 83.0 -36.2
+    44A 45A 17.90 116.0 7.3
+    45A 46A 13.62 149.0 29.6
+    46A 47A 8.40 34.5 -12.9
+    47A 48A 32.13 146.0 8.0
+    48A 49A 7.82 95.0 -4.1
+    49A 50A 42.20 87.0 -21.7
+    50A 51A 34.52 176.0 18.1
+    51A 52A 9.75 133.0 9.0
+    52A 53A 27.31 93.0 -26.4
+    53A 54A 27.74 85.0 -35.1
+    54A 55A 15.87 64.0 -31.2
+    55A 56A 24.58 17.0 -21.7
+    36A . 0.90 31.0 0.0
+    extend left
+    36A . 4.60 211.0 0.0
+    extend vertical
+    36A . 4.00 0.0 90.0
+    36A . 1.00 0.0 -90.0
+    extend right
+    37A . 7.80 116.0 0.0
+    extend left
+    37A . 1.30 296.0 0.0
+    extend vertical
+    37A . 5.00 0.0 90.0
+    37A . 1.00 0.0 -90.0
+    extend right
+    38A . 0.10 26.0 0.0
+    extend left
+    38A . 4.60 206.0 0.0
+    extend vertical
+    38A . 1.50 0.0 90.0
+    38A . 1.22 0.0 -90.0
+    extend right
+    39A . 4.70 95.0 0.0
+    extend left
+    39A . 0.10 275.0 0.0
+    extend vertical
+    39A . 5.90 0.0 90.0
+    39A . 1.20 0.0 -90.0
+    extend right
+    40A . 0.60 20.0 0.0
+    extend left
+    40A . 4.40 200.0 0.0
+    extend vertical
+    40A . 8.00 0.0 90.0
+    40A . 0.66 0.0 -90.0
+    extend right
+    42A . 3.00 56.0 0.0
+    extend left
+    42A . 6.50 236.0 0.0
+    extend vertical
+    42A . 8.50 0.0 90.0
+    42A . 2.10 0.0 -90.0
+    43A . 0.85 4.0 0.0
+    43A . 2.90 184.0 0.0
+    43A . 2.43 0.0 90.0
+    43A . 0.82 0.0 -90.0
+    44A . 2.70 353.0 0.0
+    44A . 0.50 173.0 0.0
+    44A . 1.50 0.0 90.0
+    44A . 1.80 0.0 -90.0
+    extend right
+    45A . 0.63 26.0 0.0
+    extend left
+    45A . 2.60 206.0 0.0
+    extend vertical
+    45A . 1.30 0.0 90.0
+    45A . 1.40 0.0 -90.0
+    extend right
+    46A . 11.00 59.0 0.0
+    extend left
+    46A . 0.00 239.0 0.0
+    extend vertical
+    46A . 8.00 0.0 90.0
+    46A . 2.00 0.0 -90.0
+    extend left
+    47A . 0.60 304.5 0.0
+    extend right
+    47A . 20.00 124.5 0.0
+    extend vertical
+    47A . 8.00 0.0 90.0
+    47A . 0.80 0.0 -90.0
+    extend right
+    48A . 0.90 56.0 0.0
+    extend left
+    48A . 3.80 236.0 0.0
+    extend vertical
+    48A . 10.20 0.0 90.0
+    48A . 0.50 0.0 -90.0
+    49A . 1.40 5.0 0.0
+    49A . 6.50 185.0 0.0
+    49A . 8.00 0.0 90.0
+    49A . 0.80 0.0 -90.0
+    extend right
+    51A . 4.60 86.0 0.0
+    extend left
+    51A . 1.50 266.0 0.0
+    extend vertical
+    51A . 8.80 0.0 90.0
+    51A . 1.10 0.0 -90.0
+    extend right
+    52A . 3.10 43.0 0.0
+    extend left
+    52A . 3.80 223.0 0.0
+    extend vertical
+    52A . 9.37 0.0 90.0
+    52A . 0.27 0.0 -90.0
+    53A . 5.60 3.0 0.0
+    53A . 3.60 183.0 0.0
+    53A . 4.20 0.0 90.0
+    53A . 1.67 0.0 -90.0
+    54A . 5.20 355.0 0.0
+    54A . 2.30 175.0 0.0
+    54A . 5.00 0.0 90.0
+    54A . 0.50 0.0 -90.0
+    extend left
+    55A . 7.00 334.0 0.0
+    extend right
+    55A . 0.00 154.0 0.0
+    extend vertical
+    55A . 3.40 0.0 90.0
+    55A . 1.10 0.0 -90.0
+    49A . 6.10 357.0 0.0
+    49A . 2.70 177.0 0.0
+    49A . 8.30 0.0 90.0
+    49A . 0.80 0.0 -90.0
+    53A . 5.60 3.0 0.0
+    53A . 3.60 183.0 0.0
+    53A . 4.20 0.0 90.0
+    53A . 1.67 0.0 -90.0
+    extend left
+    57A . 9.00 341.0 0.0
+    extend right
+    57A . 0.00 161.0 0.0
+    extend vertical
+    57A . 5.40 0.0 90.0
+    57A . 1.00 0.0 -90.0
+    extend left
+    58A . 2.80 257.0 0.0
+    extend right
+    58A . 6.20 77.0 0.0
+    extend vertical
+    58A . 4.25 0.0 90.0
+    58A . 1.60 0.0 -90.0
+    extend left
+    R3a . 6.20 321.0 0.0
+    extend right
+    R3a . 0.00 141.0 0.0
+    extend vertical
+    R3a . 5.20 0.0 90.0
+    R3a . 1.46 0.0 -90.0
+    extend right
+    52A 57A 14.74 71.0 -7.1
+    57A 58A 15.11 347.0 0.3
+    58A R3a 26.10 51.0 -34.2
+    R3a VIRT 12.70 352.0 -7.2
+  
+  endcenterline
+  
+  input elsa_2017_new_mir-1p.th2
+  
+  map mpR2A-56A -title "Непокорная Эльза. План" -projection plan
+  elsa_2017_new_mir-1p
+  break
+  elsa_2017_new_mir-1p1
+  endmap
+  
+  input elsa_2017_new_mir-1s.th2
+  
+  map msR2A-56A -title "Непокорная Эльза. Разрез-развертка" -projection extended 
+  elsa_2017_new_mir-1s
+  endmap
+
+endsurvey
+

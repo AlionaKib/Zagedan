@@ -1,0 +1,19 @@
+encoding  utf-8
+source elsa_2018.th
+
+export map -projection plan -output elsa_2018-plan.pdf \
+  -layout-title "Непокорная Эльза. План"\
+  -layout-map-header 15 8 s\
+  -layout-debug station-names \
+  -layout-color map-fg [98 90 77] \
+  -layout-north true \
+  -layout-overlap 2 cm \
+  -layout-scale 1 200
+  
+ export map -projection extended -output elsa_2018-ext.pdf \
+  -layout-map-header 0 110 sw\
+  -layout-debug station-names \
+  -layout-color map-fg [98 90 77] \
+  -layout water-blue
+
+#export model -output elsa_2018.lox

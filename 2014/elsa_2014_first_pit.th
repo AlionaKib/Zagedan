@@ -1,0 +1,57 @@
+encoding  utf-8
+# 2018.09.08 created by TopoDroid v 4.1.0c
+survey Elsa_2014 -title "Непокорная Эльза"
+
+  centerline
+    date 2014.07.17 
+    # declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend right
+    0 1 1.76 0.0 -90.0
+    1 2 1.77 194.0 -20.0
+    2 3 4.36 160.0 -20.0
+    3 4 3.00 100.0 -33.0
+    4 5 6.27 126.0 -58.0
+    5 6 3.17 221.0 -28.0
+    6 7 1.37 157.0 -5.0
+    7 8 2.00 252.0 -15.0
+    8 9 14.20 0.0 -90.0
+    extend left
+    9 10 5.85 302.0 -44.0
+    10 11 10.70 15.0 -52.0
+    11 12 8.60 3.0 -32.0
+    12 13 9.70 286.0 -35.0
+    13 14 9.20 307.0 -70.0
+    14 15 11.00 0.0 -90.0
+    15 16 2.10 332.0 2.0
+    16 17 1.90 18.0 -5.0
+    17 18 22.30 0.0 -90.0
+    18 R1 6.20 311.0 0.0
+    extend right
+
+
+	cs UTM37
+	fix 0 5591756.500036201 3557714.603289833 2532
+  endcenterline
+  
+  input elsa_2014_first_pit-1p.th2
+  
+  join elsa_2014_first_pit-1p elsa_2014_first_pit-1p1
+  
+  map mp0-R1 -title "Непокорная Эльза. План" -projection plan
+  elsa_2014_first_pit-1p
+  break
+  elsa_2014_first_pit-1p1
+  endmap
+  
+  input elsa_2014_first_pit-1s.th2
+  
+  map ms0-R1 -title "Непокорная Эльза. Разрез-развертка" -projection extended 
+  elsa_2014_first_pit-1s
+  endmap
+
+
+endsurvey
+
