@@ -9,7 +9,6 @@ survey Elsa_2014-2022 -title "Непокорная Эльза 2014-2015"
   input 2022/PerlRiever/elsa_2022_perl_riever.th
   input 2022/Pritoptat/elsa_2022_pritoptat.th
   
-  #Тест комментарий
    centerline
     date 2014.07.17 
     # declination 0.00 degrees
